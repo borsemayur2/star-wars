@@ -45,6 +45,7 @@
 
 {#if planets.length}
   <Pagination
+    class="m-2"
     {pages}
     on:previous={handleClickPrevious}
     on:next={handleClickNext}
@@ -62,7 +63,7 @@
 
 <style>
   .container {
-    margin: auto;
+    margin: 1%;
     display: flex;
     flex-flow: wrap;
     gap: 10px;
